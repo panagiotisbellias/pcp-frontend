@@ -47,8 +47,8 @@ export default function ListPeopleComponent() {
     return (
         <div>
             <h2 className="text-center">People List</h2>
-            <div className="row add-btn-div">
-                <button className="btn btn-primary add-btn" onClick={addPerson}>Add Person</button>
+            <div className="row add-person-div">
+                <button className="btn btn-primary add-person-btn" onClick={addPerson}>Add Person</button>
             </div>
             <br></br>
             <div className="row">
