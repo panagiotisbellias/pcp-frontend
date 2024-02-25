@@ -8,6 +8,8 @@ git config --local user.name "Panagiotis Bellias"
 git config --local user.email "belliaspan@gmail.com"
 git commit -m "Initial commit"
 git checkout -b development && git merge <TASK-BRANCH>
+git remote add origin https://github.com/<GIT-USERNAME>/pcp-frontend.git
+git push --set-upstream origin <BRANCH-TO-PUSH>
 ```
 
 ## React dependencies installation
