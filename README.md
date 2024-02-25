@@ -116,3 +116,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ```bash
 npm install react-bootstrap bootstrap
 ```
+
+## Docker Support
+
+```bash
+docker build -t pcp-frontend .
+docker run -d -p 3000:3000 pcp-frontend
+```
